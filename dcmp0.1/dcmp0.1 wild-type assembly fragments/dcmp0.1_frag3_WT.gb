@@ -1,0 +1,109 @@
+LOCUS       dcmp0.1_frag3_WT         912 bp ds-DNA     linear       09-MAR-2023
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer_bind      1..17
+                      /label="M13 fwd"
+                      /ApEinfo_revcolor="#84b0dc"
+                      /ApEinfo_fwdcolor="#84b0dc"
+     adaptor          18..29
+                      /label="pOpen BbsI site (fwd)"
+                      /ApEinfo_revcolor="#b4abac"
+                      /ApEinfo_fwdcolor="#b4abac"
+     barcode          30..89
+                      /label="KG Barcode 13"
+                      /ApEinfo_revcolor="#b4abac"
+                      /ApEinfo_fwdcolor="#b4abac"
+     restriction site 90..96
+                      /label="AarI site (fwd)"
+                      /ApEinfo_revcolor="#f6989d"
+                      /ApEinfo_fwdcolor="#f6989d"
+     RBS              97..111
+                      /label="D rbs"
+                      /ApEinfo_revcolor="#aac00c"
+                      /ApEinfo_fwdcolor="#aac00c"
+     primer           112..136
+                      /label="WT_D_d0.1-GG-FWD"
+                      /note="sequence: atcgcgaagaccaggagATGAGTCAAGTTACTGAACAATCCG"
+                      /ApEinfo_revcolor="#f8d3a9"
+                      /ApEinfo_fwdcolor="#f8d3a9"
+     CDS              112..570
+                      /label="Gene D.1"
+                      /ApEinfo_revcolor="#ff1312"
+                      /ApEinfo_fwdcolor="#ff1312"
+     misc_feature     279..279
+                      /label="G->A gene E rbs remnant"
+                      /ApEinfo_revcolor="#85dae9"
+                      /ApEinfo_fwdcolor="#85dae9"
+     misc_feature     291..291
+                      /label="T->C gene E start codon changed ATG->ACG"
+                      /ApEinfo_revcolor="#85dae9"
+                      /ApEinfo_fwdcolor="#85dae9"
+     primer           complement(553..570)
+                      /label="WT_D_d0.1-GG-REV"
+                      /note="sequence: atcgcgaagaccaagcgTTACATCACACCCTCCGC"
+                      /ApEinfo_revcolor="#c6c9d1"
+                      /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature     558..558
+                      /label="A->G gene J rbs weakened"
+                      /ApEinfo_revcolor="#85dae9"
+                      /ApEinfo_fwdcolor="#85dae9"
+     misc_feature     561..561
+                      /label="A->T gene J rbs weakened"
+                      /ApEinfo_revcolor="#85dae9"
+                      /ApEinfo_fwdcolor="#85dae9"
+     RBS              571..585
+                      /label="E rbs"
+                      /ApEinfo_revcolor="#aac00c"
+                      /ApEinfo_fwdcolor="#aac00c"
+     misc_feature     572..572
+                      /label="G->T gene J start codon change ATG->ATT"
+                      /ApEinfo_revcolor="#85dae9"
+                      /ApEinfo_fwdcolor="#85dae9"
+     primer           586..605
+                      /label="WT_E_d0.1-GG-FWD"
+                      /note="sequence: atcgcgaagaccaggagATGGTACGCTGGACTTTGTG"
+                      /ApEinfo_revcolor="#f8d3a9"
+                      /ApEinfo_fwdcolor="#f8d3a9"
+     CDS              586..861
+                      /label="Gene E.1"
+                      /ApEinfo_revcolor="#85dae9"
+                      /ApEinfo_fwdcolor="#85dae9"
+     primer           complement(837..861)
+                      /label="WT_E_d0.1-GG-REV"
+                      /note="sequence: atcgcgaagaccaagcgTCATTCTTTCCGCACGTAATTTTTG"
+                      /ApEinfo_revcolor="#faac61"
+                      /ApEinfo_fwdcolor="#faac61"
+     RBS              862..872
+                      /label="J rbs"
+                      /ApEinfo_revcolor="#aac00c"
+                      /ApEinfo_fwdcolor="#aac00c"
+     restriction site complement(873..879)
+                      /label="AarI site (rev)"
+                      /ApEinfo_revcolor="#f6989d"
+                      /ApEinfo_fwdcolor="#f6989d"
+     adaptor          complement(880..891)
+                      /label="pOpen BsbI site (rev)"
+                      /ApEinfo_revcolor="#c6c9d1"
+                      /ApEinfo_fwdcolor="#c6c9d1"
+     primer_bind      complement(892..912)
+                      /label="M13 rev"
+                      /ApEinfo_revcolor="#ff9ccd"
+                      /ApEinfo_fwdcolor="#ff9ccd"
+ORIGIN
+        1 GTAAAACGAC GGCCAGTGAA GACCAGGAGG CTCGCGCGAT TTAACTAATG TAGGGATAAC
+       61 AGGGTAATCC CCGACGAGAT CGAGTTCCTC ACCTGCaata ggtaagaaat cATGAGTCAA
+      121 GTTACTGAAC AATCCGTACG TTTCCAGACC GCTTTGGCCT CTATTAAGCT CATTCAGGCT
+      181 TCTGCCGTTT TGGATTTAAC CGAAGATGAT TTCGATTTTC TGACGAGTAA CAAAGTTTGG
+      241 ATTGCTACTG ACCGCTCTCG TGCTCGTCGC TGCGTTGAAG CTTGCGTTTA CGGTACGCTG
+      301 GACTTTGTGG GATACCCTCG CTTTCCTGCT CCTGTTGAGT TTATTGCTGC CGTCATTGCT
+      361 TATTATGTTC ATCCCGTCAA CATTCAAACG GCCTGTCTCA TCATGGAAGG CGCTGAATTT
+      421 ACGGAAAACA TTATTAATGG CGTCGAGCGT CCGGTTAAAG CCGCTGAATT GTTCGCGTTT
+      481 ACCTTGCGTG TACGCGCAGG AAACACTGAC GTTCTTACTG ACGCAGAAGA AAACGTGCGT
+      541 CAAAAATTAC GTGCGGAGGG TGTGATGTAA ttgaggcttg cgtttATGGT ACGCTGGACT
+      601 TTGTGGGATA CCCTCGCTTT CCTGCTCCTG TTGAGTTTAT TGCTGCCGTC ATTGCTTATT
+      661 ATGTTCATCC CGTCAACATT CAAACGGCCT GTCTCATCAT GGAAGGCGCT GAATTTACGG
+      721 AAAACATTAT TAATGGCGTC GAGCGTCCGG TTAAAGCCGC TGAATTGTTC GCGTTTACCT
+      781 TGCGTGTACG CGCAGGAAAC ACTGACGTTC TTACTGACGC AGAAGAAAAC GTGCGTCAAA
+      841 AATTACGTGC GGAAAGAATG Acggaaggag tgGCAGGTGC GCTTGGTCTT CCATGGTCAT
+      901 AGCTGTTTCC TG
+//

@@ -1,0 +1,7 @@
+LOCUS       S49-R                     20 bp ds-DNA     linear       10-MAR-2023
+DEFINITION  .
+COMMENT     Primer 2 to amplify RED20-phiX174 genome
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 CCAAGATTTG GAGGCATGAA
+//

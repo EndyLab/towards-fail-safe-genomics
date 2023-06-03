@@ -1,0 +1,6 @@
+LOCUS       dcmp0.2_targeting_dcmp0.1 44 bp ds-DNA     linear       09-MAR-2023
+DEFINITION  .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 AATTGTATGT TTTCATGCCT ccaaatcttg gaggcttttt tatg
+//

@@ -1,0 +1,132 @@
+LOCUS       dcmp0.1_frag4_WT        1330 bp ds-DNA     linear       09-MAR-2023
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer_bind      1..17
+                      /label="M13 fwd"
+                      /ApEinfo_revcolor="#84b0dc"
+                      /ApEinfo_fwdcolor="#84b0dc"
+     adaptor          18..29
+                      /label="pOpen BbsI site (fwd)"
+                      /ApEinfo_revcolor="#b4abac"
+                      /ApEinfo_fwdcolor="#b4abac"
+     barcode          30..89
+                      /label="KG Barcode 14"
+                      /ApEinfo_revcolor="#b4abac"
+                      /ApEinfo_fwdcolor="#b4abac"
+     restriction site 90..96
+                      /label="AarI site (fwd)"
+                      /ApEinfo_revcolor="#f6989d"
+                      /ApEinfo_fwdcolor="#f6989d"
+     misc             97..97
+                      /label="1 bp spacer"
+                      /ApEinfo_revcolor="#d6b295"
+                      /ApEinfo_fwdcolor="#d6b295"
+     RBS              98..113
+                      /label="J rbs"
+                      /ApEinfo_revcolor="#aac00c"
+                      /ApEinfo_fwdcolor="#aac00c"
+     primer           114..139
+                      /label="WT_J_d0.1-GG-FWD"
+                      /note="sequence: atcgcgaagaccaggagATGTCTAAAGGTAAAAAACGTTCTGG"
+                      /ApEinfo_revcolor="#ffef86"
+                      /ApEinfo_fwdcolor="#ffef86"
+     CDS              114..230
+                      /label="Gene J"
+                      /ApEinfo_revcolor="#00831b"
+                      /ApEinfo_fwdcolor="#00831b"
+     primer           complement(205..230)
+                      /label="WT_J_d0.1-GG-REV"
+                      /note="sequence: atcgcgaagaccaagcgTTAAAATTGTTGACCACCTACATACC"
+                      /ApEinfo_revcolor="#faac61"
+                      /ApEinfo_fwdcolor="#faac61"
+     intergenic       231..266
+                      /label="J-F Intergenic Region"
+                      /ApEinfo_revcolor="#b4abac"
+                      /ApEinfo_fwdcolor="#b4abac"
+     RBS              257..262
+                      /label="F rbs"
+                      /ApEinfo_revcolor="#aac00c"
+                      /ApEinfo_fwdcolor="#aac00c"
+     protein_bind     267..274
+                      /label="AsiSI site"
+                      /ApEinfo_revcolor="#ff0000"
+                      /ApEinfo_fwdcolor="#ff0000"
+     CDS              275..642
+                      /label="Gene F fragment"
+                      /ApEinfo_revcolor="#f58a5e"
+                      /ApEinfo_fwdcolor="#f58a5e"
+     intergenic       643..752
+                      /label="F-G Intergenic Region"
+                      /ApEinfo_revcolor="#b4abac"
+                      /ApEinfo_fwdcolor="#b4abac"
+     rep_origin       666..709
+                      /label="Complementary (-) Strand Origin of Replication"
+                      /ApEinfo_revcolor="#85dae9"
+                      /ApEinfo_fwdcolor="#85dae9"
+     primer           753..777
+                      /label="WT_G_d0.1-GG-FWD"
+                      /note="sequence: atcgcgaagaccaggagATGTTTCAGACTTTTATTTCTCGCC"
+                      /ApEinfo_revcolor="#b7e6d7"
+                      /ApEinfo_fwdcolor="#b7e6d7"
+     CDS              753..1280
+                      /label="Gene G"
+                      /ApEinfo_revcolor="#aac00c"
+                      /ApEinfo_fwdcolor="#aac00c"
+     misc_feature     1089..1089
+                      /label="A->G in decompressed phiX174.1f sequence"
+                      /ApEinfo_revcolor="#85dae9"
+                      /ApEinfo_fwdcolor="#85dae9"
+     misc_feature     1169..1169
+                      /label="c->t in decompressed phiX174.1f sequence"
+                      /ApEinfo_revcolor="#85dae9"
+                      /ApEinfo_fwdcolor="#85dae9"
+     primer           complement(1261..1280)
+                      /label="WT_G_d0.1-GG-REV"
+                      /note="sequence: atcgcgaagaccaagcgTCACTTAAGTGGCTGGAGAC"
+                      /ApEinfo_revcolor="#ffef86"
+                      /ApEinfo_fwdcolor="#ffef86"
+     intergenic       1281..1288
+                      /label="G-H intergenic"
+                      /ApEinfo_revcolor="#b4abac"
+                      /ApEinfo_fwdcolor="#b4abac"
+     misc             1289..1290
+                      /label="2 bp spacer"
+                      /ApEinfo_revcolor="#c6c9d1"
+                      /ApEinfo_fwdcolor="#c6c9d1"
+     restriction site complement(1291..1297)
+                      /label="AarI site (rev)"
+                      /ApEinfo_revcolor="#f6989d"
+                      /ApEinfo_fwdcolor="#f6989d"
+     adaptor          complement(1298..1309)
+                      /label="pOpen BsbI site (rev)"
+                      /ApEinfo_revcolor="#c6c9d1"
+                      /ApEinfo_fwdcolor="#c6c9d1"
+     primer_bind      complement(1310..1330)
+                      /label="M13 rev"
+                      /ApEinfo_revcolor="#ff9ccd"
+                      /ApEinfo_fwdcolor="#ff9ccd"
+ORIGIN
+        1 GTAAAACGAC GGCCAGTGAA GACCAGGAGA CTTCACATCC TTAGCGATAT TAGGGATAAC
+       61 AGGGTAATAC CGCACAGCCT TGGCCGGGAC ACCTGCacgg aaggagtgat gtaATGTCTA
+      121 AAGGTAAAAA ACGTTCTGGC GCTCGCCCTG GTCGTCCGCA GCCGTTGCGA GGTACTAAAG
+      181 GCAAGCGTAA AGGCGCTCGT CTTTGGTATG TAGGTGGTCA ACAATTTTAA ttgcaggggc
+      241 ttcggcccct tacttgagga taaattGCGA TCGCaaggtg ctttgactta taccgatatt
+      301 gctggcgacc ctgttttgta tggcaacttg ccgccgcgtg aaatttctat gaaggatgtt
+      361 ttccgttctg gtgattcgtc taagaagttt aagattgctg agggtcagtg gtatcgttat
+      421 gcgccttcgt atgtttctcc tgcttatcac cttcttgaag gcttcccatt cattcaggaa
+      481 ccgccttctg gtgatttgca agaacgcgta cttattcgcc accatgatta tgaccagtgt
+      541 ttccagtccg ttcagttgtt gcagtggaat agtcaggtta aatttaatgt gaccgtttat
+      601 cgcaatctgc cgaccactcg cgattcaatc atgacttcgt gataaaagat tgagtgtgag
+      661 gttataacgc cgaagcggta aaaattttaa tttttgccgc tgaggggttg accaagcgaa
+      721 gcgcggtagg ttttctgctt aggagtttaa tcATGTTTCA GACTTTTATT TCTCGCCATA
+      781 ATTCAAACTT TTTTTCTGAT AAGCTGGTTC TCACTTCTGT TACTCCAGCT TCTTCGGCAC
+      841 CTGTTTTACA GACACCTAAA GCTACATCGT CAACGTTATA TTTTGATAGT TTGACGGTTA
+      901 ATGCTGGTAA TGGTGGTTTT CTTCATTGCA TTCAGATGGA TACATCTGTC AACGCCGCTA
+      961 ATCAGGTTGT TTCTGTTGGT GCTGATATTG CTTTTGATGC CGACCCTAAA TTTTTTGCCT
+     1021 GTTTGGTTCG CTTTGAGTCT TCTTCGGTTC CGACTACCCT CCCGACTGCC TATGATGTTT
+     1081 ATCCTTTGAA TGGTCGCCAT GATGGTGGTT ATTATACCGT CAAGGACTGT GTGACTATTG
+     1141 ACGTCCTTCC CCGTACGCCG GGCAATAACG TTTATGTTGG TTTCATGGTT TGGTCTAACT
+     1201 TTACCGCTAC TAAATGCCGC GGATTGGTTT CGCTGAATCA GGTTATTAAA GAGATTATTT
+     1261 GTCTCCAGCC ACTTAAGTGA ggtgatttcc GCAGGTGCGC TTGGTCTTCC ATGGTCATAG
+     1321 CTGTTTCCTG
+//

@@ -1,0 +1,6 @@
+LOCUS       cmpr0.2_frag2b_FWD        38 bp ds-DNA     linear       10-MAR-2023
+DEFINITION  .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 GAAGACCAGG AGCACCTGCg ggcttcggcc ccttactt
+//

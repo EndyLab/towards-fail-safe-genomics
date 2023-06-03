@@ -1,0 +1,7 @@
+LOCUS       493                       20 bp ds-DNA     linear       10-MAR-2023
+DEFINITION  .
+COMMENT     Primer 1 to sequence phiX174 genes FJ
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 TCATCCCGTC AACATTCAAA
+//

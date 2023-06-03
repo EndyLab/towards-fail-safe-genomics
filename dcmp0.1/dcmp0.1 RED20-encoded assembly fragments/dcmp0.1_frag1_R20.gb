@@ -1,0 +1,84 @@
+LOCUS       dcmp0.1_frag1_R20       1716 bp ds-DNA     linear       09-MAR-2023
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer_bind      1..17
+                      /label="M13 fwd"
+                      /ApEinfo_revcolor="#84b0dc"
+                      /ApEinfo_fwdcolor="#84b0dc"
+     adaptor          18..29
+                      /label="pOpen BbsI site (fwd)"
+                      /ApEinfo_revcolor="#b4abac"
+                      /ApEinfo_fwdcolor="#b4abac"
+     barcode          30..89
+                      /label="KG Barcode 6"
+                      /ApEinfo_revcolor="#b4abac"
+                      /ApEinfo_fwdcolor="#b4abac"
+     restriction site 90..96
+                      /label="AarI site (fwd)"
+                      /ApEinfo_revcolor="#f6989d"
+                      /ApEinfo_fwdcolor="#f6989d"
+     intergenic       97..121
+                      /label="H-A Intergenic Region"
+                      /ApEinfo_revcolor="#b4abac"
+                      /ApEinfo_fwdcolor="#b4abac"
+     primer           122..142
+                      /label="R20_A-d0.1-GG-FWD"
+                      /note="sequence: atcgcgaagaccaggagATGGTCCGTTCATACTACCCG"
+                      /ApEinfo_revcolor="#b1ff67"
+                      /ApEinfo_fwdcolor="#b1ff67"
+     CDS              122..1663
+                      /label="Gene A_R20"
+                      /ApEinfo_revcolor="#75c6a9"
+                      /ApEinfo_fwdcolor="#75c6a9"
+     primer           complement(1645..1663)
+                      /label="R20_A-d0.1-GG-REV"
+                      /note="sequence: atcgcgaagaccaagcgTCATTTTCCTCCTGCGGTC"
+                      /ApEinfo_revcolor="#d59687"
+                      /ApEinfo_fwdcolor="#d59687"
+     RBS              1664..1676
+                      /label="B rbs"
+                      /ApEinfo_revcolor="#aac00c"
+                      /ApEinfo_fwdcolor="#aac00c"
+     restriction site complement(1677..1683)
+                      /label="AarI site (rev)"
+                      /ApEinfo_revcolor="#f6989d"
+                      /ApEinfo_fwdcolor="#f6989d"
+     adaptor          complement(1684..1695)
+                      /label="pOpen BsbI site (rev)"
+                      /ApEinfo_revcolor="#c6c9d1"
+                      /ApEinfo_fwdcolor="#c6c9d1"
+     primer_bind      complement(1696..1716)
+                      /label="M13 rev"
+                      /ApEinfo_revcolor="#ff9ccd"
+                      /ApEinfo_fwdcolor="#ff9ccd"
+ORIGIN
+        1 GTAAAACGAC GGCCAGTGAA GACCAGGAGC GAAATAAGCT TCCGTTGGCC TAGGGATAAC
+       61 AGGGTAATGT CGTCTGGGCA CCTAACCTAC ACCTGCgcct ccaaatcttg gaggcttttt
+      121 tATGGTCCGT TCATACTACC CGTCAGAATG CCACGCAGAC TACTTCGACT TCGAACGTAT
+      181 CGAAGCACTA AAACCGGCAA TCGAAGCATG CGGAATCTCA ACCCTATCAC AGTCACCGAT
+      241 GCTAGGATTC CACAAACAGA TGGACAACCG TATCAAACTA CTAGAAGAAA TCCTATCATT
+      301 CCGTATGCAG GGAGTCGAAT TCGACAACGG AGACATGTAC GTCGACGGAC ACAAAGCAGC
+      361 ATCAGACGTC CGTGACGAAT TCGTCTCAGT CACCGAAAAA CTAATGGACG AACTAGCACA
+      421 GTGCTACAAC GTCCTACCGC AGCTAGACAT CAACAACACC ATCGACCACC GTCCGGAAGG
+      481 AGACGAAAAA TGGTTCCTAG AAAACGAAAA AACCGTCACC CAGTTCTGCC GTAAACTAGC
+      541 AGCAGAACGT CCGCTAAAAG ACATCCGTGA CGAATACAAC TACCCGAAAA AAAAAGGAAT
+      601 CAAAGACGAA TGCTCACGTC TACTAGAAGC ATCAACCATG AAATCACGTC GTGGATTCGC
+      661 AATCCAGCGT CTAATGAACG CAATGCGTCA GGCACACGCA GACGGATGGT TCATCGTCTT
+      721 CGACACCCTA ACCCTAGCAG ACGACCGTCT AGAAGCATTC TACGACAACC CGAACGCACT
+      781 ACGTGACTAC TTCCGTGACA TCGGACGTAT GGTCCTAGCA GCAGAAGGAC GTAAAGCAAA
+      841 CGACTCACAC GCAGACTGCT ACCAGTACTT CTGCGTCCCG GAATACGGAA CCGCAAACGG
+      901 ACGTCTACAC TTCCACGCAG TCCACTTCAT GCGTACCCTA CCGACCGGAT CAGTCGACCC
+      961 GAACTTCGGA CGTCGTGTCC GTAACCGTCG TCAGCTAAAC TCACTACAGA ACACCTGGCC
+     1021 GTACGGATAC TCAATGCCGA TCGCAGTCCG TTACACCCAG GACGCATTCT CACGTTCAGG
+     1081 ATGGCTATGG CCGGTCGACG CAAAAGGAGA ACCGCTAAAA GCAACCTCAT ACATGGCAGT
+     1141 CGGATTCTAC GTCGCAAAAT ACGTCAACAA AAAATCAGAC ATGGACCTAG CAGCAAAAGG
+     1201 ACTAGGAGCA AAAGAATGGA ACAACTCACT AAAAACCAAA CTATCACTAC TACCGAAAAA
+     1261 ACTATTCCGT ATCCGTATGT CACGTAACTT CGGAATGAAA ATGCTAACCA TGACCAACCT
+     1321 ATCAACCGAA TGCCTAATCC AGCTAACCAA ACTAGGATAC GACGCAACCC CGTTCAACCA
+     1381 GATCCTAAAA CAGAACGCAA AACGTGAAAT GCGTCTACGT CTAGGAAAAG TCACCGTCGC
+     1441 AGACGTCCTA GCAGCACAGC CGGTCACCAC CAACCTACTA AAATTCATGC GTGCATCAAT
+     1501 CAAAATGATC GGAGTCTCAA ACCTACAGTC ATTCATCGCA TCAATGACCC AGAAACTAAC
+     1561 CCTATCAGAC ATCTCAGACG AATCAAAAAA CTACCTAGAC AAAGCAGGAA TCACCACCGC
+     1621 ATGCCTACGT ATCAAATCAA AATGGACCGC AGGAGGAAAA TGAtctagga gctaaaGCAG
+     1681 GTGCGCTTGG TCTTCCATGG TCATAGCTGT TTCCTG
+//

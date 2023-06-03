@@ -1,0 +1,117 @@
+LOCUS       cmpr0.3.1_frag2_gC-S86  1241 bp ds-DNA     linear       10-MAR-2023
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer_bind         1..17
+                         /label="M13 fwd"
+                         /ApEinfo_revcolor="#84b0dc"
+                         /ApEinfo_fwdcolor="#84b0dc"
+     adaptor             18..29
+                         /label="pOpen BbsI site (fwd)"
+                         /ApEinfo_revcolor="#b4abac"
+                         /ApEinfo_fwdcolor="#b4abac"
+     assembly part       30..36
+                         /label="BsaI prototype site (fwd)"
+                         /ApEinfo_revcolor="#d59687"
+                         /ApEinfo_fwdcolor="#d59687"
+     assembly annotation 37..40
+                         /label="frag 2 overhang"
+                         /ApEinfo_revcolor="#b4abac"
+                         /ApEinfo_fwdcolor="#b4abac"
+     CDS                 37..491
+                         /label="A gene"
+                         /ApEinfo_revcolor="#c6c9d1"
+                         /ApEinfo_fwdcolor="#c6c9d1"
+     CDS                 37..491
+                         /label="A* gene"
+                         /ApEinfo_revcolor="#c6c9d1"
+                         /ApEinfo_fwdcolor="#c6c9d1"
+     CDS                 39..491
+                         /label="Translation 39-491"
+                         /translation="KEWNNSLKTKLSLLPKKLFRIRMSRNFGMKMLTMTNLSTECLIQLTKLGYDATPFNQILKQNAKREMRLRLGKVTVADVLAAQPVTTNLLKFMRASIKMIGVSNLQSFIASMTQKLTLSDISDESKNYLDKAGITTACLRIKSKWTAGGK*"
+     CDS                 44..406
+                         /label="B gene"
+                         /ApEinfo_revcolor="#c6c9d1"
+                         /ApEinfo_fwdcolor="#c6c9d1"
+     CDS                 44..406
+                         /label="Translation 44-406"
+                         /translation="MEQLTKNQAVATSQEAVQNQNEPQLRDENAHNDKSVHGVLNPTYQAGLRRDAVQPDIEAERKKRDEIEAGKSYCSRRFGGATCDDKSAQIYARFDKNDWRIQPAEFYRFHDAEVNTFGYF*"
+     CDS                 406..576
+                         /label="K gene"
+                         /ApEinfo_revcolor="#c6c9d1"
+                         /ApEinfo_fwdcolor="#c6c9d1"
+     CDS                 406..576
+                         /label="Translation 406-576"
+                         /translation="MSRKIILIKQELLLLVYELNRSGLLAENEKIRPILAQLEKLLLCDLSPSTNDSVKN*"
+     CDS                 488..748
+                         /label="C gene"
+                         /ApEinfo_revcolor="#c6c9d1"
+                         /ApEinfo_fwdcolor="#c6c9d1"
+     CDS                 488..748
+                         /label="Translation 488-748"
+                         /translation="MRKFDLSLRSSRSSYFATFRHQLTILSKTDALDEEKWLNMLGTFVKDWFRYESHFVHGRDSLVDILKERGLLSESDAVQPLIGKKT*"
+     promoter            668..712
+                         /label="Promoter D"
+                         /ApEinfo_revcolor="#ff9ccd"
+                         /ApEinfo_fwdcolor="#ff9ccd"
+     edit                743..745
+                         /label="gC S86"
+                         /ApEinfo_revcolor="#85dae9"
+                         /ApEinfo_fwdcolor="#85dae9"
+     CDS                 746..1201
+                         /label="D gene"
+                         /ApEinfo_revcolor="#c6c9d1"
+                         /ApEinfo_fwdcolor="#c6c9d1"
+     CDS                 746..1201
+                         /label="Translation 746-1201"
+                         /translation="*VKLLNNPYVSRPLWPLLSSFRLLPFWI*PKMISIF*RVTKFGLLLTALVLVAALRLAFMVRWTLWDTLAFLLLLSLLLPSLLIMFIPSTFKRPVSSWKALNLRKTLLMASSVRLKPLNCSRLPCVYAQETLTFLLTQKKTCVKNYVRKE*C"
+     CDS                 923..1198
+                         /label="E gene"
+                         /ApEinfo_revcolor="#c6c9d1"
+                         /ApEinfo_fwdcolor="#c6c9d1"
+     CDS                 923..1198
+                         /label="Translation 923-1198"
+                         /translation="MVRWTLWDTLAFLLLLSLLLPSLLIMFIPSTFKRPVSSWKALNLRKTLLMASSVRLKPLNCSRLPCVYAQETLTFLLTQKKTCVKNYVRKE*"
+     assembly annotation 1198..1201
+                         /label="frag 3 overhang"
+                         /ApEinfo_revcolor="#c6c9d1"
+                         /ApEinfo_fwdcolor="#c6c9d1"
+     assembly part       complement(1202..1208)
+                         /label="BsaI prototype site"
+                         /ApEinfo_revcolor="#d59687"
+                         /ApEinfo_fwdcolor="#d59687"
+     adaptor             complement(1209..1220)
+                         /label="pOpen BsbI site (rev)"
+                         /ApEinfo_revcolor="#c6c9d1"
+                         /ApEinfo_fwdcolor="#c6c9d1"
+     primer_bind         complement(1221..1241)
+                         /label="M13 rev"
+                         /ApEinfo_revcolor="#ff9ccd"
+                         /ApEinfo_fwdcolor="#ff9ccd"
+     primer              complement(1221..1241)
+                         /label="M13 rev"
+                         /note="sequence: CAGGAAACAGCTATGACCATG"
+                         /ApEinfo_revcolor="#d6b295"
+                         /ApEinfo_fwdcolor="#d6b295"
+ORIGIN
+        1 GTAAAACGAC GGCCAGTgaa gaccaggagG GTCTCActaa agaatggaac aactcactaa
+       61 aaaccaagct gtcgctactt cccaagaagc tgttcagaat cagaatgagc cgcaacttcg
+      121 ggatgaaaat gctcacaatg acaaatctgt ccacggagtg cttaatccaa cttaccaagc
+      181 tgggttacga cgcgacgccg ttcaaccaga tattgaagca gaacgcaaaa agagagatga
+      241 gattgaggct gggaaaagtt actgtagccg acgttttggc ggcgcaacct gtgacgacaa
+      301 atctgctcaa atttatgcgc gcttcgataa aaatgattgg cgtatccaac ctgcagagtt
+      361 ttatcgcttc catgacgcag aagttaacac tttcggatat ttctgatgag tcgaaaaatt
+      421 atcttgataa agcaggaatt actactgctt gtttacgaat taaatcgaag tggactgctg
+      481 gcggaaaatg agaaaattcg acctatcctt gcgcagctcg agaagctctt actttgcgac
+      541 ctttcgccat caactaacga ttctgtcaaa aactgacgcg ttggatgagg agaagtggct
+      601 taatatgctt ggcacgttcg tcaaggactg gtttagatat gagtcacatt ttgttcatgg
+      661 tagagattct cttgttgaca ttttaaaaga gcgtggatta ctatctgagt ccgatgctgt
+      721 tcaaccacta ataggtaaga aaACAtgagt caagttactg aacaatccgt acgtttccag
+      781 accgctttgg cctctattaa gctcattcag gcttctgccg ttttggattt aaccgaagat
+      841 gatttcgatt ttctgacgag taacaaagtt tggattgcta ctgaccgctc tcgtgctcgt
+      901 cgctgcgttg aggcttgcgt ttatggtacg ctggactttg tgggataccc tcgctttcct
+      961 gctcctgttg agtttattgc tgccgtcatt gcttattatg ttcatcccgt caacattcaa
+     1021 acggcctgtc tcatcatgga aggcgctgaa tttacggaaa acattattaa tggcgtcgag
+     1081 cgtccggtta aagccgctga attgttcgcg tttaccttgc gtgtacgcgc aggaaacact
+     1141 gacgttctta ctgacgcaga agaaaacgtg cgtcaaaaat tacgtgcgga aggagtgatg
+     1201 tTGAGACCCG CTTGGTCTTC CATGGTCATA GCTGTTTCCT G
+//

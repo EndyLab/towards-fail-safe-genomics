@@ -1,0 +1,6 @@
+LOCUS       M13_REV                   21 bp ds-DNA     linear       09-MAR-2023
+DEFINITION  .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 CAGGAAACAG CTATGACCAT G
+//

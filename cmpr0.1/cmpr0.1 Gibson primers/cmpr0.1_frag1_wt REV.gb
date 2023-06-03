@@ -1,0 +1,6 @@
+LOCUS       cmpr0.1_frag1_wt_REV      40 bp ds-DNA     linear       09-MAR-2023
+DEFINITION  .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 cgttttttac ctttagacat tacatcactc cttccgcacg
+//

@@ -1,0 +1,92 @@
+LOCUS       cmpr0.3.1_frag3_syn61   1072 bp ds-DNA     linear       10-MAR-2023
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer_bind         1..17
+                         /label="M13 fwd"
+                         /ApEinfo_revcolor="#84b0dc"
+                         /ApEinfo_fwdcolor="#84b0dc"
+     adaptor             18..29
+                         /label="pOpen BbsI site (fwd)"
+                         /ApEinfo_revcolor="#b4abac"
+                         /ApEinfo_fwdcolor="#b4abac"
+     assembly part       30..36
+                         /label="BsaI prototype site (fwd)"
+                         /ApEinfo_revcolor="#d59687"
+                         /ApEinfo_fwdcolor="#d59687"
+     CDS                 37..37
+                         /label="E gene"
+                         /ApEinfo_revcolor="#c6c9d1"
+                         /ApEinfo_fwdcolor="#c6c9d1"
+     assembly annotation 37..40
+                         /label="frag 3 overhang"
+                         /ApEinfo_revcolor="#c6c9d1"
+                         /ApEinfo_fwdcolor="#c6c9d1"
+     CDS                 37..42
+                         /label="D gene"
+                         /ApEinfo_revcolor="#b4abac"
+                         /ApEinfo_fwdcolor="#b4abac"
+     CDS                 37..42
+                         /label="Translation 37-42"
+                         /translation="M*"
+     CDS                 42..158
+                         /label="J gene"
+                         /ApEinfo_revcolor="#b1ff67"
+                         /ApEinfo_fwdcolor="#b1ff67"
+     CDS                 42..158
+                         /label="Translation 42-158"
+                         /translation="MSKGKKRSGARPGRPQPLRGTKGKRKGARLWYVGGQQF*"
+     CDS                 195..1032
+                         /label="gF_syn61_v0.3.1"
+                         /ApEinfo_revcolor="#b1ff67"
+                         /ApEinfo_fwdcolor="#b1ff67"
+     CDS                 195..1032
+                         /label="Translation 195-1032"
+                         /translation="MSNIQTGAERMPHDLSHLGFLAGQIGRLITISTTPVIAGDSFEMDAVGALRLSPLRRGLAIDSTVDIFTFYVPHRHVYGEQWIKFMKDGVNATPLPTVNTTGYIDHAAFLGTINPDTNKIPKHLFQGYLNIYNNYFKAPWMPDRTEANPNELNQDDARYGFRCCHLKNIWTAPLPPETELSRQMTTSTTSIDIMGLQAAYANLHTDQERDYFMQRYHDVISSFGGKTSYDADNRPLLVMRSNLWASGYDVDGTDQTSLGQFSGRVQQTYKHSVPRFFVP"
+     edit                288..290
+                         /label="v0.3.1_F32"
+                         /ApEinfo_revcolor="#d59687"
+                         /ApEinfo_fwdcolor="#d59687"
+     edit                858..860
+                         /label="v0.3.1 F222"
+                         /ApEinfo_revcolor="#ff9ccd"
+                         /ApEinfo_fwdcolor="#ff9ccd"
+     misc_feature        963..965
+                         /label="v0.3.1 F257"
+                         /ApEinfo_revcolor="#85dae9"
+                         /ApEinfo_fwdcolor="#85dae9"
+     assembly annotation 1029..1032
+                         /label="frag 4 overhang"
+                         /ApEinfo_revcolor="#c6c9d1"
+                         /ApEinfo_fwdcolor="#c6c9d1"
+     assembly part       complement(1033..1039)
+                         /label="BsaI prototype site"
+                         /ApEinfo_revcolor="#d59687"
+                         /ApEinfo_fwdcolor="#d59687"
+     adaptor             complement(1040..1051)
+                         /label="pOpen BsbI site (rev)"
+                         /ApEinfo_revcolor="#c6c9d1"
+                         /ApEinfo_fwdcolor="#c6c9d1"
+     primer_bind         complement(1052..1072)
+                         /label="M13 rev"
+                         /ApEinfo_revcolor="#ff9ccd"
+                         /ApEinfo_fwdcolor="#ff9ccd"
+ORIGIN
+        1 GTAAAACGAC GGCCAGTGAA GACCAGGAGG GTCTCAatgt aatgtctaaa ggtaaaaaac
+       61 gttctggcgc tcgccctggt cgtccgcagc cgttgcgagg tactaaaggc aagcgtaaag
+      121 gcgctcgtct ttggtatgta ggtggtcaac aattttaatt gcaggggctt cggcccctta
+      181 cttgaggata aattatgtct aatattcaaa ctggcgccga gcgtatgccg catgaccttt
+      241 cccatcttgg cttccttgct ggtcagattg gtcgtcttat taccattTCT actactccgg
+      301 ttatcgctgg cgactccttc gagatggacg ccgttggcgc tctccgtctt tctccattgc
+      361 gtcgtggcct tgctattgac tctactgtag acatttttac tttttatgtc cctcatcgtc
+      421 acgtttatgg tgaacagtgg attaagttca tgaaggatgg tgttaatgcc actcctctcc
+      481 cgactgttaa cactactggt tatattgacc atgccgcttt tcttggcacg attaaccctg
+      541 ataccaataa aatccctaag catttgtttc agggttattt gaatatctat aacaactatt
+      601 ttaaagcgcc gtggatgcct gaccgtaccg aggctaaccc taatgagctt aatcaagatg
+      661 atgctcgtta tggtttccgt tgctgccatc tcaaaaacat ttggactgct ccgcttcctc
+      721 ctgagactga gctttctcgc caaatgacga cttctaccac atctattgac attatgggtc
+      781 tgcaagctgc ttatgctaat ttgcatactg accaagaacg tgattacttc atgcagcgtt
+      841 accatgatgt tatttctTCT tttggaggta aaacctctta tgacgctgac aaccgtcctt
+      901 tacttgtcat gcgctctaat ctctgggcat ctggctatga tgttgatgga actgaccaaa
+      961 cgTCTttagg ccagttttct ggtcgtgttc aacagaccta taaacattct gtgccgcgtt
+     1021 tctttgttcc tgTGAGACCC GCTTGGTCTT CCATGGTCAT AGCTGTTTCC TG
+//

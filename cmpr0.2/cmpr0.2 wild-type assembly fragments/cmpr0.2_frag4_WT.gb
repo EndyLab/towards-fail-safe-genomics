@@ -1,0 +1,69 @@
+LOCUS       cmpr0.2_frag4_WT        1128 bp ds-DNA     linear       09-MAR-2023
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer_bind      1..17
+                      /label="M13 fwd"
+                      /ApEinfo_revcolor="#84b0dc"
+                      /ApEinfo_fwdcolor="#84b0dc"
+     adaptor          18..29
+                      /label="pOpen BbsI site (fwd)"
+                      /ApEinfo_revcolor="#b4abac"
+                      /ApEinfo_fwdcolor="#b4abac"
+     restriction site 30..36
+                      /label="AarI site (fwd)"
+                      /ApEinfo_revcolor="#f6989d"
+                      /ApEinfo_fwdcolor="#f6989d"
+     assembly         41..44
+                      /label="cmpr-0.1_gg_overhang_5"
+                      /ApEinfo_revcolor="#ff9ccd"
+                      /ApEinfo_fwdcolor="#ff9ccd"
+     CDS              47..1033
+                      /label="H gene"
+                      /ApEinfo_revcolor="#faac61"
+                      /ApEinfo_fwdcolor="#faac61"
+     promoter         1034..1077
+                      /label="Promoter A"
+                      /ApEinfo_revcolor="#d6b295"
+                      /ApEinfo_fwdcolor="#d6b295"
+     assembly         1081..1084
+                      /label="cmpr-0.1_gg_overhang_1"
+                      /ApEinfo_revcolor="#ff9ccd"
+                      /ApEinfo_fwdcolor="#ff9ccd"
+     restriction site complement(1089..1095)
+                      /label="AarI site (rev)"
+                      /ApEinfo_revcolor="#f6989d"
+                      /ApEinfo_fwdcolor="#f6989d"
+     adaptor          complement(1096..1107)
+                      /label="pOpen BsbI site (rev)"
+                      /ApEinfo_revcolor="#c6c9d1"
+                      /ApEinfo_fwdcolor="#c6c9d1"
+     primer_bind      complement(1108..1128)
+                      /label="M13 rev"
+                      /ApEinfo_revcolor="#ff9ccd"
+                      /ApEinfo_fwdcolor="#ff9ccd"
+     primer           complement(1108..1128)
+                      /label="M13 rev"
+                      /note="sequence: CAGGAAACAGCTATGACCATG"
+                      /ApEinfo_revcolor="#d6b295"
+                      /ApEinfo_fwdcolor="#d6b295"
+ORIGIN
+        1 GTAAAACGAC GGCCAGTGAA GACCAGGAGC ACCTGCaaga tgatttatgt ttggtgctat
+       61 tgctggcggt attgcttctg ctcttgctgg tggcgccatg tctaaattgt ttggaggcgg
+      121 tcaaaaagcc gcctccggtg gcattcaagg tgatgtgctt gctaccgata acaatactgt
+      181 aggcatgggt gatgctggta ttaaatctgc cattcaaggc tctaatgttc ctaaccctga
+      241 tgaggccgcc cctagttttg tttctggtgc tatggctaaa gctggtaaag gacttcttga
+      301 aggtacgttg caggctggca cttctgccgt ttctgataag ttgcttgatt tggttggact
+      361 tggtggcaag tctgccgctg ataaaggaaa ggatactcgt gattatcttg ctgctgcatt
+      421 tcctgagctt aatgcttggg agcgtgctgg tgctgatgct tcctctgctg gtatggttga
+      481 cgccggattt gagaatcaaa aagagcttac taaaatgcaa ctggacaatc agaaagagat
+      541 tgccgagatg caaaatgaga ctcaaaaaga gattgctggc attcagtcgg cgacttcacg
+      601 ccagaatacg aaagaccagg tatatgcaca aaatgagatg cttgcttatc aacagaagga
+      661 gtctactgct cgcgttgcgt ctattatgga aaacaccaat ctttccaagc aacagcaggt
+      721 ttccgagatt atgcgccaaa tgcttactca agctcaaacg gctggtcagt attttaccaa
+      781 tgaccaaatc aaagaaatga ctcgcaaggt tagtgctgag gttgacttag ttcatcagca
+      841 aacgcagaat cagcggtatg gctcttctca tattggcgct actgcaaagg atatttctaa
+      901 tgtcgtcact gatgctgctt ctggtgtggt tgatattttt catggtattg ataaagctgt
+      961 tgccgatact tggaacaatt tctggaaaga cggtaaagct gatggtattg gctctaattt
+     1021 gtctaggaaa taaccgtcag gattgacacc ctcccaattg tatgttttca tgcctccaaa
+     1081 tcttggagGC AGGTGCGCTT GGTCTTCCAT GGTCATAGCT GTTTCCTG
+//

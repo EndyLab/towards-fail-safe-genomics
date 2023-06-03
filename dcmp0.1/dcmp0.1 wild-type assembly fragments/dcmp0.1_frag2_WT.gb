@@ -1,0 +1,144 @@
+LOCUS       dcmp0.1_frag2_WT         985 bp ds-DNA     linear       09-MAR-2023
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer_bind      1..17
+                      /label="M13 fwd"
+                      /ApEinfo_revcolor="#84b0dc"
+                      /ApEinfo_fwdcolor="#84b0dc"
+     adaptor          18..29
+                      /label="pOpen BbsI site (fwd)"
+                      /ApEinfo_revcolor="#b4abac"
+                      /ApEinfo_fwdcolor="#b4abac"
+     barcode          30..89
+                      /label="KG Barcode 12"
+                      /ApEinfo_revcolor="#b4abac"
+                      /ApEinfo_fwdcolor="#b4abac"
+     restriction site 90..96
+                      /label="AarI site (fwd)"
+                      /ApEinfo_revcolor="#f6989d"
+                      /ApEinfo_fwdcolor="#f6989d"
+     RBS              97..110
+                      /label="B rbs"
+                      /ApEinfo_revcolor="#aac00c"
+                      /ApEinfo_fwdcolor="#aac00c"
+     primer           111..135
+                      /label="WT_B_d0.1-GG-FWD"
+                      /note="sequence: atcgcgaagaccaggagATGGAACAACTCACTAAAAACCAAG"
+                      /ApEinfo_revcolor="#ff9ccd"
+                      /ApEinfo_fwdcolor="#ff9ccd"
+     CDS              111..473
+                      /label="Gene B.1"
+                      /ApEinfo_revcolor="#ac10c0"
+                      /ApEinfo_fwdcolor="#ac10c0"
+     primer           complement(447..473)
+                      /label="WT_B_d0.1-GG-REV"
+                      /note="sequence: atcgcgaagaccaagcgTCAGAAATAACCGAAAGTGTTAACTTC"
+                      /ApEinfo_revcolor="#75c6a9"
+                      /ApEinfo_fwdcolor="#75c6a9"
+     misc_feature     464..464
+                      /label="A->T gene K rbs remnant"
+                      /ApEinfo_revcolor="#85dae9"
+                      /ApEinfo_fwdcolor="#85dae9"
+     misc_feature     473..475
+                      /label="former gene K start codon"
+                      /ApEinfo_revcolor="#85dae9"
+                      /ApEinfo_fwdcolor="#85dae9"
+     RBS              474..487
+                      /label="K rbs"
+                      /ApEinfo_revcolor="#aac00c"
+                      /ApEinfo_fwdcolor="#aac00c"
+     primer           488..517
+                      /label="WT_K_d0.1-GG-FWD"
+                      /note="sequence: atcgcgaagaccaggagATGAGTCGAAAAATTATCTTGATAAAGCAG"
+                      /ApEinfo_revcolor="#ffef86"
+                      /ApEinfo_fwdcolor="#ffef86"
+     CDS              488..658
+                      /label="Gene K.1"
+                      /ApEinfo_revcolor="#faac61"
+                      /ApEinfo_fwdcolor="#faac61"
+     misc_feature     559..559
+                      /label="G->C gene C rbs"
+                      /ApEinfo_revcolor="#85dae9"
+                      /ApEinfo_fwdcolor="#85dae9"
+     misc_feature     562..562
+                      /label="G->C gene C rbs"
+                      /ApEinfo_revcolor="#85dae9"
+                      /ApEinfo_fwdcolor="#85dae9"
+     misc_feature     571..571
+                      /label="T->C gene C start codon"
+                      /ApEinfo_revcolor="#85dae9"
+                      /ApEinfo_fwdcolor="#85dae9"
+     primer           complement(633..658)
+                      /label="WT_K_d0.1-GG-REV"
+                      /note="sequence: atcgcgaagaccaagcgTCAGTTTTTGACAGAATCGTTAGTTG"
+                      /ApEinfo_revcolor="#ff9ccd"
+                      /ApEinfo_fwdcolor="#ff9ccd"
+     RBS              659..672
+                      /label="C rbs"
+                      /ApEinfo_revcolor="#aac00c"
+                      /ApEinfo_fwdcolor="#aac00c"
+     primer           673..697
+                      /label="WT_C_d0.1-GG-FWD"
+                      /note="sequence: atcgcgaagaccaggagATGAGAAAATTCGACCTATCCTTGC"
+                      /ApEinfo_revcolor="#d59687"
+                      /ApEinfo_fwdcolor="#d59687"
+     CDS              673..933
+                      /label="Gene C.1"
+                      /ApEinfo_revcolor="#2a81c0"
+                      /ApEinfo_fwdcolor="#2a81c0"
+     promoter         853..897
+                      /label="Promoter D"
+                      /ApEinfo_revcolor="#ff9ccd"
+                      /ApEinfo_fwdcolor="#ff9ccd"
+     primer           complement(910..933)
+                      /label="WT_C_d0.1-GG-REV"
+                      /note="sequence: atcgcgaagaccaagcgTCAAGATTTCTTGCCGATTAGTGG"
+                      /ApEinfo_revcolor="#f8d3a9"
+                      /ApEinfo_fwdcolor="#f8d3a9"
+     misc_feature     918..918
+                      /label="A->C gene D rbs weakened"
+                      /ApEinfo_revcolor="#85dae9"
+                      /ApEinfo_fwdcolor="#85dae9"
+     misc_feature     921..921
+                      /label="T->C gene D rbs weakened"
+                      /ApEinfo_revcolor="#85dae9"
+                      /ApEinfo_fwdcolor="#85dae9"
+     misc_feature     930..930
+                      /label="A->T gene D start codon changed ATG->TTG"
+                      /ApEinfo_revcolor="#85dae9"
+                      /ApEinfo_fwdcolor="#85dae9"
+     RBS              934..945
+                      /label="D rbs"
+                      /ApEinfo_revcolor="#aac00c"
+                      /ApEinfo_fwdcolor="#aac00c"
+     restriction site complement(946..952)
+                      /label="AarI site (rev)"
+                      /ApEinfo_revcolor="#f6989d"
+                      /ApEinfo_fwdcolor="#f6989d"
+     adaptor          complement(953..964)
+                      /label="pOpen BsbI site (rev)"
+                      /ApEinfo_revcolor="#c6c9d1"
+                      /ApEinfo_fwdcolor="#c6c9d1"
+     primer_bind      complement(965..985)
+                      /label="M13 rev"
+                      /ApEinfo_revcolor="#ff9ccd"
+                      /ApEinfo_fwdcolor="#ff9ccd"
+ORIGIN
+        1 GTAAAACGAC GGCCAGTGAA GACCAGGAGT CACCCGCTTT TTTGTGATAT TAGGGATAAC
+       61 AGGGTAATGC TAGCTCAACT GATTTCGCAC ACCTGCctag gagctaaaga ATGGAACAAC
+      121 TCACTAAAAA CCAAGCTGTC GCTACTTCCC AAGAAGCTGT TCAGAATCAG AATGAGCCGC
+      181 AACTTCGGGA TGAAAATGCT CACAATGACA AATCTGTCCA CGGAGTGCTT AATCCAACTT
+      241 ACCAAGCTGG GTTACGACGC GACGCCGTTC AACCAGATAT TGAAGCAGAA CGCAAAAAGA
+      301 GAGATGAGAT TGAGGCTGGG AAAAGTTACT GTAGCCGACG TTTTGGCGGC GCAACCTGTG
+      361 ACGACAAATC TGCTCAAATT TATGCGCGCT TCGATAAAAA TGATTGGCGT ATCCAACCTG
+      421 CAGAGTTTTA TCGCTTCCAT GACGCAGAAG TTAACACTTT CGGTTATTTC TGAttcggat
+      481 atttctgATG AGTCGAAAAA TTATCTTGAT AAAGCAGGAA TTACTACTGC TTGTTTACGA
+      541 ATTAAATCGA AGTGGACTCC TCGCGGAAAA CGAGAAAATT CGACCTATCC TTGCGCAGCT
+      601 CGAGAAGCTC TTACTTTGCG ACCTTTCGCC ATCAACTAAC GATTCTGTCA AAAACTGAac
+      661 tgctggcgga aaATGAGAAA ATTCGACCTA TCCTTGCGCA GCTCGAGAAG CTCTTACTTT
+      721 GCGACCTTTC GCCATCAACT AACGATTCTG TCAAAAACTG ACGCGTTGGA TGAGGAGAAG
+      781 TGGCTTAATA TGCTTGGCAC GTTCGTCAAG GACTGGTTTA GATATGAGTC ACATTTTGTT
+      841 CATGGTAGAG ATTCTCTTGT TGACATTTTA AAAGAGCGTG GATTACTATC TGAGTCCGAT
+      901 GCTGTTCAAC CACTAATCGG CAAGAAATCT TGAaataggt aagaaGCAGG TGCGCTTGGT
+      961 CTTCCATGGT CATAGCTGTT TCCTG
+//

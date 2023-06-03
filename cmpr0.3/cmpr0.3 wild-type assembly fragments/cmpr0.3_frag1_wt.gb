@@ -1,0 +1,89 @@
+LOCUS       cmpr0.3_frag1_wt        1176 bp ds-DNA     linear       09-MAR-2023
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer_bind         1..17
+                         /label="M13 fwd"
+                         /ApEinfo_revcolor="#84b0dc"
+                         /ApEinfo_fwdcolor="#84b0dc"
+     adaptor             18..29
+                         /label="pOpen BbsI site (fwd)"
+                         /ApEinfo_revcolor="#b4abac"
+                         /ApEinfo_fwdcolor="#b4abac"
+     assembly part       30..36
+                         /label="BsaI prototype site (fwd)"
+                         /ApEinfo_revcolor="#d59687"
+                         /ApEinfo_fwdcolor="#d59687"
+     assembly annotation 37..40
+                         /label="frag 1 overhang"
+                         /ApEinfo_revcolor="#c6c9d1"
+                         /ApEinfo_fwdcolor="#c6c9d1"
+     CDS                 46..1136
+                         /label="A gene"
+                         /ApEinfo_revcolor="#b4abac"
+                         /ApEinfo_fwdcolor="#b4abac"
+     CDS                 46..1136
+                         /label="Translation 46-1136"
+                         /translation="MVRSYYPSECHADYFDFERIEALKPAIEACGISTLSQSPMLGFHKQMDNRIKLLEEILSFRMQGVEFDNGDMYVDGHKAASDVRDEFVSVTEKLMDELAQCYNVLPQLDINNTIDHRPEGDEKWFLENEKTVTQFCRKLAAERPLKDIRDEYNYPKKKGIKDECSRLLEASTMKSRRGFAIQRLMNAMRQAHADGWFIVFDTLTLADDRLEAFYDNPNALRDYFRDIGRMVLAAEGRKANDSHADCYQYFCVPEYGTANGRLHFHAVHFMRTLPTGSVDPNFGRRVRNRRQLNSLQNTWPYGYSMPIAVRYTQDAFSRSGWLWPVDAKGEPLKATSYMAVGFYVAKYVNKKSDMDLAAKGLGA"
+     rep_origin          364..393
+                         /label="Viral (+) strand origin of replication"
+                         /ApEinfo_revcolor="#d59687"
+                         /ApEinfo_fwdcolor="#d59687"
+     CDS                 494..565
+                         /label="hypothetical protein"
+                         /ApEinfo_revcolor="#f8d3a9"
+                         /ApEinfo_fwdcolor="#f8d3a9"
+     CDS                 562..1136
+                         /label="A* gene"
+                         /ApEinfo_revcolor="#f58a5e"
+                         /ApEinfo_fwdcolor="#f58a5e"
+     promoter            863..907
+                         /label="Promoter B1"
+                         /ApEinfo_revcolor="#c7b0e3"
+                         /ApEinfo_fwdcolor="#c7b0e3"
+     promoter            919..963
+                         /label="Promoter B2"
+                         /ApEinfo_revcolor="#ff9ccd"
+                         /ApEinfo_fwdcolor="#ff9ccd"
+     assembly annotation 1133..1136
+                         /label="frag 2 overhang"
+                         /ApEinfo_revcolor="#b4abac"
+                         /ApEinfo_fwdcolor="#b4abac"
+     assembly part       complement(1137..1143)
+                         /label="BsaI prototype site"
+                         /ApEinfo_revcolor="#d59687"
+                         /ApEinfo_fwdcolor="#d59687"
+     adaptor             complement(1144..1155)
+                         /label="pOpen BsbI site (rev)"
+                         /ApEinfo_revcolor="#c6c9d1"
+                         /ApEinfo_fwdcolor="#c6c9d1"
+     primer_bind         complement(1156..1176)
+                         /label="M13 rev"
+                         /ApEinfo_revcolor="#ff9ccd"
+                         /ApEinfo_fwdcolor="#ff9ccd"
+     primer              complement(1156..1176)
+                         /label="M13 rev"
+                         /note="sequence: CAGGAAACAGCTATGACCATG"
+                         /ApEinfo_revcolor="#d6b295"
+                         /ApEinfo_fwdcolor="#d6b295"
+ORIGIN
+        1 GTAAAACGAC GGCCAGTGAA GACCAGGAGG GTCTCAggct tttttatggt tcgttcttat
+       61 tacccttctg aatgtcacgc tgattatttt gactttgagc gtatcgaggc tcttaaacct
+      121 gctattgagg cttgtggcat ttctactctt tctcaatccc caatgcttgg cttccataag
+      181 cagatggata accgcatcaa gctcttggaa gagattctgt cttttcgtat gcagggcgtt
+      241 gagttcgata atggtgatat gtatgttgac ggccataagg ctgcttctga cgttcgtgat
+      301 gagtttgtat ctgttactga gaagttaatg gatgaattgg cacaatgcta caatgtgctc
+      361 ccccaacttg atattaataa cactatagac caccgccccg aaggggacga aaaatggttt
+      421 ttagagaacg agaagacggt tacgcagttt tgccgcaagc tggctgctga acgccctctt
+      481 aaggatattc gcgatgagta taattacccc aaaaagaaag gtattaagga tgagtgttca
+      541 agattgctgg aggcctccac tatgaaatcg cgtagaggct ttgctattca gcgtttgatg
+      601 aatgcaatgc gacaggctca tgctgatggt tggtttatcg tttttgacac tctcacgttg
+      661 gctgacgacc gattagaggc gttttatgat aatcccaatg ctttgcgtga ctattttcgt
+      721 gatattggtc gtatggttct tgctgccgag ggtcgcaagg ctaatgattc acacgccgac
+      781 tgctatcagt atttttgtgt gcctgagtat ggtacagcta atggccgtct tcatttccat
+      841 gcggtgcact ttatgcggac acttcctaca ggtagcgttg accctaattt tggtcgtcgg
+      901 gtacgcaatc gccgccagtt aaatagcttg caaaatacgt ggccttatgg ttacagtatg
+      961 cccatcgcag ttcgctacac gcaggacgct ttttcacgtt ctggttggtt gtggcctgtt
+     1021 gatgctaaag gtgagccgct taaagctacc agttatatgg ctgttggttt ctatgtggct
+     1081 aaatacgtta acaaaaagtc agatatggac cttgctgcta aaggtctagg agctaaTGAG
+     1141 ACCCGCTTGG TCTTCCATGG TCATAGCTGT TTCCTG
+//

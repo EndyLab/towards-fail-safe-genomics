@@ -1,0 +1,136 @@
+LOCUS       dcmp0.1_frag1_WT        1716 bp ds-DNA     linear       09-MAR-2023
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer_bind      1..17
+                      /label="M13 fwd"
+                      /ApEinfo_revcolor="#84b0dc"
+                      /ApEinfo_fwdcolor="#84b0dc"
+     adaptor          18..29
+                      /label="pOpen BbsI site (fwd)"
+                      /ApEinfo_revcolor="#b4abac"
+                      /ApEinfo_fwdcolor="#b4abac"
+     barcode          30..89
+                      /label="KG Barcode 11"
+                      /ApEinfo_revcolor="#b4abac"
+                      /ApEinfo_fwdcolor="#b4abac"
+     restriction site 90..96
+                      /label="AarI site (fwd)"
+                      /ApEinfo_revcolor="#f6989d"
+                      /ApEinfo_fwdcolor="#f6989d"
+     intergenic       97..121
+                      /label="H-A Intergenic Region"
+                      /ApEinfo_revcolor="#b4abac"
+                      /ApEinfo_fwdcolor="#b4abac"
+     primer           122..144
+                      /label="WT_A_d0.1-GG-FWD"
+                      /note="sequence: atcgcgaagaccaggagATGGTTCGTTCTTATTACCCTTC"
+                      /ApEinfo_revcolor="#d59687"
+                      /ApEinfo_fwdcolor="#d59687"
+     gene             122..1663
+                      /label="Gene A.1"
+                      /ApEinfo_revcolor="#00831b"
+                      /ApEinfo_fwdcolor="#00831b"
+     rep_origin       440..469
+                      /label="Viral (+) strand origin of replication"
+                      /ApEinfo_revcolor="#d59687"
+                      /ApEinfo_fwdcolor="#d59687"
+     CDS              809..1663
+                      /label="Gene A*.0"
+                      /ApEinfo_revcolor="#b4abac"
+                      /ApEinfo_fwdcolor="#b4abac"
+     promoter         939..983
+                      /label="Promoter B1"
+                      /ApEinfo_revcolor="#c7b0e3"
+                      /ApEinfo_fwdcolor="#c7b0e3"
+     promoter         995..1039
+                      /label="Promoter B2"
+                      /ApEinfo_revcolor="#ff9ccd"
+                      /ApEinfo_fwdcolor="#ff9ccd"
+     misc_feature     1207..1207
+                      /label="A -> T gene B rbs weakened"
+                      /ApEinfo_revcolor="#85dae9"
+                      /ApEinfo_fwdcolor="#85dae9"
+     misc_feature     1210..1210
+                      /label="T->C gene B remnant rbs weakened"
+                      /ApEinfo_revcolor="#85dae9"
+                      /ApEinfo_fwdcolor="#85dae9"
+     misc_feature     1216..1216
+                      /label="A->G gene B remnant start codon"
+                      /ApEinfo_revcolor="#85dae9"
+                      /ApEinfo_fwdcolor="#85dae9"
+     misc_feature     1567..1567
+                      /label="G->T gene K remnant rbs weakened"
+                      /ApEinfo_revcolor="#85dae9"
+                      /ApEinfo_fwdcolor="#85dae9"
+     misc_feature     1570..1570
+                      /label="T->C gene K remnant rbs weakened"
+                      /ApEinfo_revcolor="#85dae9"
+                      /ApEinfo_fwdcolor="#85dae9"
+     misc_feature     1579..1579
+                      /label="T->C gene K start codon changed ATG->ACG"
+                      /ApEinfo_revcolor="#85dae9"
+                      /ApEinfo_fwdcolor="#85dae9"
+     misc_feature     1648..1648
+                      /label="T->C gene C remnant rbs weakened"
+                      /ApEinfo_revcolor="#85dae9"
+                      /ApEinfo_fwdcolor="#85dae9"
+     primer           complement(1649..1663)
+                      /label="WT_A_d0.1-GG-REV"
+                      /note="sequence: atcgcgaagaccaagcgTCACTTTCCGCCGGC"
+                      /ApEinfo_revcolor="#b1ff67"
+                      /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature     1651..1651
+                      /label="T->C gene C remnant rbs weakened"
+                      /ApEinfo_revcolor="#85dae9"
+                      /ApEinfo_fwdcolor="#85dae9"
+     misc_feature     1660..1660
+                      /label="A->G gene C start codon remnant"
+                      /ApEinfo_revcolor="#85dae9"
+                      /ApEinfo_fwdcolor="#85dae9"
+     RBS              1664..1676
+                      /label="B rbs"
+                      /ApEinfo_revcolor="#aac00c"
+                      /ApEinfo_fwdcolor="#aac00c"
+     restriction site complement(1677..1683)
+                      /label="AarI site (rev)"
+                      /ApEinfo_revcolor="#f6989d"
+                      /ApEinfo_fwdcolor="#f6989d"
+     adaptor          complement(1684..1695)
+                      /label="pOpen BsbI site (rev)"
+                      /ApEinfo_revcolor="#c6c9d1"
+                      /ApEinfo_fwdcolor="#c6c9d1"
+     primer_bind      complement(1696..1716)
+                      /label="M13 rev"
+                      /ApEinfo_revcolor="#ff9ccd"
+                      /ApEinfo_fwdcolor="#ff9ccd"
+ORIGIN
+        1 GTAAAACGAC GGCCAGTgaa gaccaggagG TCCTCTGTGC CCATGCGGAT TAGGGATAAC
+       61 AGGGTAATGC TACCAAGCGG TCTTTTAACC ACCTGCgcct ccaaatcttg gaggcttttt
+      121 tATGGTTCGT TCTTATTACC CTTCTGAATG TCACGCTGAT TATTTTGACT TTGAGCGTAT
+      181 CGAGGCTCTT AAACCTGCTA TTGAGGCTTG TGGCATTTCT ACTCTTTCTC AATCCCCAAT
+      241 GCTTGGCTTC CATAAGCAGA TGGATAACCG CATCAAGCTC TTGGAAGAGA TTCTGTCTTT
+      301 TCGTATGCAG GGCGTTGAGT TCGATAATGG TGATATGTAT GTTGACGGCC ATAAGGCTGC
+      361 TTCTGACGTT CGTGATGAGT TTGTATCTGT TACTGAGAAG TTAATGGATG AATTGGCACA
+      421 ATGCTACAAT GTGCTCCCCC AACTTGATAT TAATAACACT ATAGACCACC GCCCCGAAGG
+      481 GGACGAAAAA TGGTTTTTAG AGAACGAGAA GACGGTTACG CAGTTTTGCC GCAAGCTGGC
+      541 TGCTGAACGC CCTCTTAAGG ATATTCGCGA TGAGTATAAT TACCCCAAAA AGAAAGGTAT
+      601 TAAGGATGAG TGTTCAAGAT TGCTGGAGGC CTCCACTATG AAATCGCGTA GAGGCTTTGC
+      661 TATTCAGCGT TTGATGAATG CAATGCGACA GGCTCATGCT GATGGTTGGT TTATCGTTTT
+      721 TGACACTCTC ACGTTGGCTG ACGACCGATT AGAGGCGTTT TATGATAATC CCAATGCTTT
+      781 GCGTGACTAT TTTCGTGATA TTGGTCGTAT GGTTCTTGCT GCCGAGGGTC GCAAGGCTAA
+      841 TGATTCACAC GCCGACTGCT ATCAGTATTT TTGTGTGCCT GAGTATGGTA CAGCTAATGG
+      901 CCGTCTTCAT TTCCATGCGG TGCACTTTAT GCGGACACTT CCTACAGGTA GCGTTGACCC
+      961 TAATTTTGGT CGTCGGGTAC GCAATCGCCG CCAGTTAAAT AGCTTGCAAA ATACGTGGCC
+     1021 TTATGGTTAC AGTATGCCCA TCGCAGTTCG CTACACGCAG GACGCTTTTT CACGTTCTGG
+     1081 TTGGTTGTGG CCTGTTGATG CTAAAGGTGA GCCGCTTAAA GCTACCAGTT ATATGGCTGT
+     1141 TGGTTTCTAT GTGGCTAAAT ACGTTAACAA AAAGTCAGAT ATGGACCTTG CTGCTAAAGG
+     1201 TCTAGGTGCC AAAGAGTGGA ACAACTCACT AAAAACCAAG CTGTCGCTAC TTCCCAAGAA
+     1261 GCTGTTCAGA ATCAGAATGA GCCGCAACTT CGGGATGAAA ATGCTCACAA TGACAAATCT
+     1321 GTCCACGGAG TGCTTAATCC AACTTACCAA GCTGGGTTAC GACGCGACGC CGTTCAACCA
+     1381 GATATTGAAG CAGAACGCAA AAAGAGAGAT GAGATTGAGG CTGGGAAAAG TTACTGTAGC
+     1441 CGACGTTTTG GCGGCGCAAC CTGTGACGAC AAATCTGCTC AAATTTATGC GCGCTTCGAT
+     1501 AAAAATGATT GGCGTATCCA ACCTGCAGAG TTTTATCGCT TCCATGACGC AGAAGTTAAC
+     1561 ACTTTCTGAC ATTTCTGACG AGTCGAAAAA TTATCTTGAT AAAGCAGGAA TTACTACTGC
+     1621 TTGTTTACGA ATTAAATCGA AGTGGACCGC CGGCGGAAAG TGAtctagga gctaaaGCAG
+     1681 GTGcgcttgg tcttcCATGG TCATAGCTGT TTCCTG
+//

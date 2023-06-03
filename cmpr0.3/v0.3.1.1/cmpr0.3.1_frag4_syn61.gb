@@ -1,0 +1,115 @@
+LOCUS       cmpr0.3.1_frag4_syn61   1164 bp ds-DNA     linear       10-MAR-2023
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer_bind         1..17
+                         /label="M13 fwd"
+                         /ApEinfo_revcolor="#84b0dc"
+                         /ApEinfo_fwdcolor="#84b0dc"
+     adaptor             18..29
+                         /label="pOpen BbsI site (fwd)"
+                         /ApEinfo_revcolor="#b4abac"
+                         /ApEinfo_fwdcolor="#b4abac"
+     assembly part       30..36
+                         /label="BsaI prototype site (fwd)"
+                         /ApEinfo_revcolor="#d59687"
+                         /ApEinfo_fwdcolor="#d59687"
+     assembly annotation 37..40
+                         /label="frag 4 overhang"
+                         /ApEinfo_revcolor="#c6c9d1"
+                         /ApEinfo_fwdcolor="#c6c9d1"
+     CDS                 40..486
+                         /label="Translation 40-486"
+                         /translation="EHGTMFTLALVRFPPTATKEIQYLNAKGALTYTDIAGDPVLYGNLPPREISMKDVFRSGDSSKKFKIAEGQWYRYAPSYVSPAYHLLEGFPFIQEPPSGDLQERVLIRHHDYDQCFQSVQLLQWNSQVKFNVTVYRNLPTTRDSIMTS*"
+     CDS                 41..486
+                         /label="gF_syn61_v0.3.1"
+                         /ApEinfo_revcolor="#b1ff67"
+                         /ApEinfo_fwdcolor="#b1ff67"
+     edit                220..222
+                         /label="v0.3.1 F340"
+                         /ApEinfo_revcolor="#d6b295"
+                         /ApEinfo_fwdcolor="#d6b295"
+     edit                271..273
+                         /label="v0.3.1 F357"
+                         /ApEinfo_revcolor="#ffef86"
+                         /ApEinfo_fwdcolor="#ffef86"
+     edit                469..471
+                         /label="v0.3.1 F423"
+                         /ApEinfo_revcolor="#c6c9d1"
+                         /ApEinfo_fwdcolor="#c6c9d1"
+     edit                481..483
+                         /label="v0.3.1 F427"
+                         /ApEinfo_revcolor="#f58a5e"
+                         /ApEinfo_fwdcolor="#f58a5e"
+     rep_origin          510..553
+                         /label="(-) strand ori"
+                         /ApEinfo_revcolor="#ff9ccd"
+                         /ApEinfo_fwdcolor="#ff9ccd"
+     CDS                 597..1124
+                         /label="gG_syn61_v0.3.1"
+                         /ApEinfo_revcolor="#b1ff67"
+                         /ApEinfo_fwdcolor="#b1ff67"
+     CDS                 597..1124
+                         /label="Translation 597-1124"
+                         /translation="MFQTFISRHNSNFFSDKLVLTSVTPASSAPVLQTPKATSSTLYFDSLTVNAGNGGFLHCIQMDTSVNAANQVVSVGADIAFDADPKFFACLVRFESSSVPTTLPTAYDVYPLNGRHDGGYYTVKDCVTIDVLPRTPGNNVYVGFMVWSNFTATKCRGLVSLNQVIKEIICLQPLK*"
+     edit                627..629
+                         /label="v0.3.1 G11"
+                         /ApEinfo_revcolor="#84b0dc"
+                         /ApEinfo_fwdcolor="#84b0dc"
+     edit                678..680
+                         /label="v0.3.1 G28"
+                         /ApEinfo_revcolor="#75c6a9"
+                         /ApEinfo_fwdcolor="#75c6a9"
+     edit                711..713
+                         /label="v0.3.1 G39"
+                         /ApEinfo_revcolor="#c6c9d1"
+                         /ApEinfo_fwdcolor="#c6c9d1"
+     edit                714..716
+                         /label="v0.3.1 G40"
+                         /ApEinfo_revcolor="#c7b0e3"
+                         /ApEinfo_fwdcolor="#c7b0e3"
+     edit                888..890
+                         /label="v0.3.1 G98"
+                         /ApEinfo_revcolor="#75c6a9"
+                         /ApEinfo_fwdcolor="#75c6a9"
+     edit                1074..1076
+                         /label="v0.3.1 G160"
+                         /ApEinfo_revcolor="#84b0dc"
+                         /ApEinfo_fwdcolor="#84b0dc"
+     assembly annotation 1121..1124
+                         /label="frag 5 overhang"
+                         /ApEinfo_revcolor="#c6c9d1"
+                         /ApEinfo_fwdcolor="#c6c9d1"
+     assembly part       complement(1125..1131)
+                         /label="BsaI prototype site"
+                         /ApEinfo_revcolor="#d59687"
+                         /ApEinfo_fwdcolor="#d59687"
+     adaptor             complement(1132..1143)
+                         /label="pOpen BsbI site (rev)"
+                         /ApEinfo_revcolor="#c6c9d1"
+                         /ApEinfo_fwdcolor="#c6c9d1"
+     primer_bind         complement(1144..1164)
+                         /label="M13 rev"
+                         /ApEinfo_revcolor="#ff9ccd"
+                         /ApEinfo_fwdcolor="#ff9ccd"
+ORIGIN
+        1 GTAAAACGAC GGCCAGTGAA GACCAGGAGG GTCTCAcctg agcatggcac tatgtttact
+       61 cttgcgcttg ttcgttttcc gcctactgcg actaaagaga ttcagtacct taacgctaaa
+      121 ggtgctttga cttataccga tattgctggc gaccctgttt tgtatggcaa cttgccgccg
+      181 cgtgaaattt ctatgaagga tgttttccgt tctggtgatT CTtctaagaa gtttaagatt
+      241 gctgagggtc agtggtatcg ttatgcgcct TCTtatgttt ctcctgctta tcaccttctt
+      301 gaaggcttcc cattcattca ggaaccgcct tctggtgatt tgcaagaacg cgtacttatt
+      361 cgccaccatg attatgacca gtgtttccag tccgttcagt tgttgcagtg gaatagtcag
+      421 gttaaattta atgtgaccgt ttatcgcaat ctgccgacca ctcgcgatTC Tatcatgact
+      481 TCTtgataaa agattgagtg tgaggttata acgccgaagc ggtaaaaatt ttaatttttg
+      541 ccgctgaggg gttgaccaag cgaagcgcgg taggttttct gcttaggagt ttaatcatgt
+      601 ttcagacttt tatttctcgc cataatTCTa actttttttc tgataagctg gttctcactt
+      661 ctgttactcc agcttctTCT gcacctgttt tacagacacc taaagctaca TCTTCTacgt
+      721 tatattttga tagtttgacg gttaatgctg gtaatggtgg ttttcttcat tgcattcaga
+      781 tggatacatc tgtcaacgcc gctaatcagg ttgtttctgt tggtgctgat attgcttttg
+      841 atgccgaccc taaatttttt gcctgtttgg ttcgctttga gtcttctTCT gttccgacta
+      901 ccctcccgac tgcctatgat gtttatcctt tgaatggtcg ccatgatggt ggttattata
+      961 ccgtcaagga ctgtgtgact attgacgtcc ttccccgtac gccgggcaat aacgtttatg
+     1021 ttggtttcat ggtttggtct aactttaccg ctactaaatg ccgcggattg gttTCTctga
+     1081 atcaggttat taaagagatt atttgtctcc agccacttaa gtgaTGAGAC CCGCTTGGTC
+     1141 TTCCATGGTC ATAGCTGTTT CCTG
+//

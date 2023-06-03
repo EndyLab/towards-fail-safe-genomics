@@ -1,0 +1,63 @@
+LOCUS       cmpr0.2_frag3_WT         721 bp ds-DNA     linear       09-MAR-2023
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer_bind      1..17
+                      /label="M13 fwd"
+                      /ApEinfo_revcolor="#84b0dc"
+                      /ApEinfo_fwdcolor="#84b0dc"
+     adaptor          18..29
+                      /label="pOpen BbsI site (fwd)"
+                      /ApEinfo_revcolor="#b4abac"
+                      /ApEinfo_fwdcolor="#b4abac"
+     restriction site 30..36
+                      /label="AarI site (fwd)"
+                      /ApEinfo_revcolor="#f6989d"
+                      /ApEinfo_fwdcolor="#f6989d"
+     assembly         41..44
+                      /label="cmpr-0.2_gg_overhang_3"
+                      /ApEinfo_revcolor="#ff9ccd"
+                      /ApEinfo_fwdcolor="#ff9ccd"
+     rep_origin       57..100
+                      /label="label: Complementary (-) Strand Origin ofReplication"
+                      /ApEinfo_revcolor="#faac61"
+                      /ApEinfo_fwdcolor="#faac61"
+     CDS              144..671
+                      /label="G gene"
+                      /ApEinfo_revcolor="#f8d3a9"
+                      /ApEinfo_fwdcolor="#f8d3a9"
+     assembly         674..677
+                      /label="cmpr-0.2_gg_overhang_4"
+                      /ApEinfo_revcolor="#ff9ccd"
+                      /ApEinfo_fwdcolor="#ff9ccd"
+     restriction site complement(682..688)
+                      /label="AarI site (rev)"
+                      /ApEinfo_revcolor="#f6989d"
+                      /ApEinfo_fwdcolor="#f6989d"
+     adaptor          complement(689..700)
+                      /label="pOpen BsbI site (rev)"
+                      /ApEinfo_revcolor="#c6c9d1"
+                      /ApEinfo_fwdcolor="#c6c9d1"
+     primer_bind      complement(701..721)
+                      /label="M13 rev"
+                      /ApEinfo_revcolor="#ff9ccd"
+                      /ApEinfo_fwdcolor="#ff9ccd"
+     primer           complement(701..721)
+                      /label="M13 rev"
+                      /note="sequence: CAGGAAACAGCTATGACCATG"
+                      /ApEinfo_revcolor="#d6b295"
+                      /ApEinfo_fwdcolor="#d6b295"
+ORIGIN
+        1 GTAAAACGAC GGCCAGTGAA GACCAGGAGC ACCTGCaaga ttgagtgtga ggttataacg
+       61 ccgaagcggt aaaaatttta atttttgccg ctgaggggtt gaccaagcga agcgcggtag
+      121 gttttctgct taggagttta atcatgtttc agacttttat ttctcgccat aattcaaact
+      181 ttttttctga taagctggtt ctcacttctg ttactccagc ttcttcggca cctgttttac
+      241 agacacctaa agctacatcg tcaacgttat attttgatag tttgacggtt aatgctggta
+      301 atggtggttt tcttcattgc attcagatgg atacatctgt caacgccgct aatcaggttg
+      361 tttctgttgg tgctgatatt gcttttgatg ccgaccctaa attttttgcc tgtttggttc
+      421 gctttgagtc ttcttcggtt ccgactaccc tcccgactgc ctatgatgtt tatcctttga
+      481 atggtcgcca tgatggtggt tattataccg tcaaggactg tgtgactatt gacgtccttc
+      541 cccgtacgcc gggcaataac gtttatgttg gtttcatggt ttggtctaac tttaccgcta
+      601 ctaaatgccg cggattggtt tcgctgaatc aggttattaa agagattatt tgtctccagc
+      661 cacttaagtg aggtgatgga gGCAGGTGCG CTTGGTCTTC CATGGTCATA GCTGTTTCCT
+      721 G
+//

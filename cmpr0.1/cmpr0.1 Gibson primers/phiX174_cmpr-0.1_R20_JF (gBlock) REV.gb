@@ -1,0 +1,6 @@
+LOCUS       phiX174_cmpr-0.1_R20_JF_( 40 bp ds-DNA     linear       09-MAR-2023
+DEFINITION  .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 acctcacact caatctttta TCATGAGGTC ATGATTGAGT
+//

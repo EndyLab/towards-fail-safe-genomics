@@ -1,0 +1,83 @@
+LOCUS       cmpr0.2_frag4_R20       1145 bp ds-DNA     linear       09-MAR-2023
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer_bind      1..17
+                      /label="M13 fwd"
+                      /ApEinfo_revcolor="#84b0dc"
+                      /ApEinfo_fwdcolor="#84b0dc"
+     primer           1..17
+                      /label="M13 Forward (-20)"
+                      /note="sequence: GTAAAACGACGGCCAGT"
+                      /ApEinfo_revcolor="#d59687"
+                      /ApEinfo_fwdcolor="#d59687"
+     adaptor          18..29
+                      /label="pOpen BbsI site (fwd)"
+                      /ApEinfo_revcolor="#b4abac"
+                      /ApEinfo_fwdcolor="#b4abac"
+     restriction site 30..36
+                      /label="AarI site (fwd)"
+                      /ApEinfo_revcolor="#f6989d"
+                      /ApEinfo_fwdcolor="#f6989d"
+     CDS              37..38
+                      /label="Gene G_R20"
+                      /ApEinfo_revcolor="#b1ff67"
+                      /ApEinfo_fwdcolor="#b1ff67"
+     assembly         41..44
+                      /label="cmpr-0.1_gg_overhang_5"
+                      /ApEinfo_revcolor="#ff9ccd"
+                      /ApEinfo_fwdcolor="#ff9ccd"
+     CDS              47..1033
+                      /label="Gene H_R20"
+                      /ApEinfo_revcolor="#6ecff6"
+                      /ApEinfo_fwdcolor="#6ecff6"
+     promoter         1034..1077
+                      /label="Promoter A"
+                      /ApEinfo_revcolor="#d6b295"
+                      /ApEinfo_fwdcolor="#d6b295"
+     assembly         1081..1084
+                      /label="cmpr-0.1_gg_overhang_1"
+                      /ApEinfo_revcolor="#ff9ccd"
+                      /ApEinfo_fwdcolor="#ff9ccd"
+     restriction site complement(1089..1095)
+                      /label="AarI site (rev)"
+                      /ApEinfo_revcolor="#f6989d"
+                      /ApEinfo_fwdcolor="#f6989d"
+     misc             1096..1112
+                      /label="random spacer"
+                      /ApEinfo_revcolor="#c6c9d1"
+                      /ApEinfo_fwdcolor="#c6c9d1"
+     adaptor          complement(1113..1124)
+                      /label="pOpen BsbI site (rev)"
+                      /ApEinfo_revcolor="#c6c9d1"
+                      /ApEinfo_fwdcolor="#c6c9d1"
+     primer_bind      complement(1125..1145)
+                      /label="M13 rev"
+                      /ApEinfo_revcolor="#ff9ccd"
+                      /ApEinfo_fwdcolor="#ff9ccd"
+     primer           complement(1125..1145)
+                      /label="M13 rev"
+                      /note="sequence: CAGGAAACAGCTATGACCATG"
+                      /ApEinfo_revcolor="#d6b295"
+                      /ApEinfo_fwdcolor="#d6b295"
+ORIGIN
+        1 GTAAAACGAC GGCCAGTGAA GACCAGGAGC ACCTGCGAgg tgatttATGT TCGGAGCAAT
+       61 CGCAGGAGGA ATCGCATCAG CACTAGCAGG AGGAGCAATG TCAAAACTAT TCGGAGGAGG
+      121 ACAGAAAGCA GCATCAGGAG GAATCCAGGG AGACGTCCTA GCAACCGACA ACAACACCGT
+      181 CGGAATGGGA GACGCAGGAA TCAAATCAGC AATCCAGGGA TCAAACGTCC CGAACCCGGA
+      241 CGAAGCAGCA CCGTCATTCG TCTCAGGAGC AATGGCAAAA GCAGGAAAAG GACTACTAGA
+      301 AGGAACCCTA CAGGCAGGAA CCTCAGCAGT CTCAGACAAA CTACTAGACC TAGTCGGACT
+      361 AGGAGGAAAA TCAGCAGCAG ACAAAGGAAA AGACACCCGT GACTACCTAG CAGCAGCATT
+      421 CCCGGAACTA AACGCATGGG AACGTGCAGG AGCAGACGCA TCATCAGCAG GAATGGTCGA
+      481 CGCAGGATTC GAAAACCAGA AAGAACTAAC CAAAATGCAG CTAGACAACC AGAAAGAAAT
+      541 CGCAGAAATG CAGAACGAAA CCCAGAAAGA AATCGCAGGA ATCCAGTCAG CAACCTCACG
+      601 TCAGAACACC AAAGACCAGG TCTACGCACA GAACGAAATG CTAGCATACC AGCAGAAAGA
+      661 ATCAACCGCA CGTGTCGCAT CAATCATGGA AAACACCAAC CTATCAAAAC AGCAGCAGGT
+      721 CTCAGAAATC ATGCGTCAGA TGCTAACCCA GGCACAGACC GCAGGACAGT ACTTCACCAA
+      781 CGACCAGATC AAAGAAATGA CCCGTAAAGT CTCAGCAGAA GTCGACCTAG TCCACCAGCA
+      841 GACCCAGAAC CAGCGTTACG GATCATCACA CATCGGAGCA ACCGCAAAAG ACATCTCAAA
+      901 CGTCGTCACC GACGCAGCAT CAGGAGTCGT CGACATCTTC CACGGAATCG ACAAAGCAGT
+      961 CGCAGACACC TGGAACAACT TCTGGAAAGA CGGAAAAGCA GACGGAATCG GATCAAACCT
+     1021 ATCACGTAAA TAAccgtcag gattgacacc ctcccaattg tatgttttca tgcctccaaa
+     1081 tcttggagGC AGGTGatagg cgccggatat cgCGCTTGGT CTTCCATGGT CATAGCTGTT
+     1141 TCCTG
+//

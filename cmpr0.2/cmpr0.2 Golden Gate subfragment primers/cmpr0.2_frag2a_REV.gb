@@ -1,0 +1,6 @@
+LOCUS       cmpr0.2_frag2a_REV        39 bp ds-DNA     linear       10-MAR-2023
+DEFINITION  .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 GAAGACCAAG CGCACCTGCg ggccgaagcc cctgcaatt
+//

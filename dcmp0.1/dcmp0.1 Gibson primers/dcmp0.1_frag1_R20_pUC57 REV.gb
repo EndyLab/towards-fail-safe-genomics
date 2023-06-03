@@ -1,0 +1,6 @@
+LOCUS       dcmp0.1_frag1_R20_pUC57_R 41 bp ds-DNA     linear       09-MAR-2023
+DEFINITION  .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 GCTGTTCCAT TCTTTAGCTC CTAGATCATT TTCCTCCTGC G
+//
